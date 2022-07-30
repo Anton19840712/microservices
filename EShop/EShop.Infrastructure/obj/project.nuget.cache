@@ -1,8 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "hEouDZ++yL6HJWiN9oFu5dtpKhNYOmyRp597Rf245Bh/E22VzSIr5U7L6Qhs77z8Ie4kH+1NNWW0+1w0mdQZqA==",
+  "dgSpecHash": "3lAnrKsqSBQb3rB36xSKJwFUgyfRpg5fez2uLwwnE6ZkuLQGt/9GHXWLSEIi3lc3HLR9ynlkBHk1p+VZP1hXkw==",
   "success": true,
   "projectFilePath": "D:\\microservices\\EShop\\EShop.Infrastructure\\EShop.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.configuration.binder\\5.0.0\\microsoft.extensions.configuration.binder.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\mongodb.bson\\2.17.0\\mongodb.bson.2.17.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\mongodb.driver\\2.17.0\\mongodb.driver.2.17.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\mongodb.driver.core\\2.17.0\\mongodb.driver.core.2.17.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.4\\mongodb.libmongocrypt.1.5.4.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\User\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
