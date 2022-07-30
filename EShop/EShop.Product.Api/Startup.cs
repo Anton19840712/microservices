@@ -10,6 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using MongoDB;
+using EShop.Infrastructure.Mongo;
+using EShop.Product.Api.Services;
+using EShop.Product.Api.Repositories;
 
 namespace EShop.Product.Api
 {
@@ -26,6 +30,9 @@ namespace EShop.Product.Api
 		public void ConfigureServices(IServiceCollection services)
 		{
 			services.AddControllers();
+			services.AddMongoDb(Configuration);
+			services.AddScoped<IProductService, ProductService>();
+			services.AddScoped<IProductRepository, ProductRepository>();
 		}
 
 		// This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
