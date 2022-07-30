@@ -26,7 +26,8 @@ namespace EShop.Product.Api.Repositories
 			return new ProductCreated()
 			{
 				ProductId = product.ProductId,
-				CreatedAt= DateTime.UtcNow
+				CreatedAt= DateTime.UtcNow,
+				ProductName = product.ProductName,
 			};
 		}
 
@@ -41,7 +42,8 @@ namespace EShop.Product.Api.Repositories
 			return new ProductCreated
 			{
 				ProductId = product.ProductId,
-				CreatedAt = DateTime.UtcNow
+				CreatedAt = DateTime.UtcNow,
+				ProductName = product.ProductName,
 			};
 		}
 	}

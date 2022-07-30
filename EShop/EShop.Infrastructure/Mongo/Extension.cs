@@ -20,7 +20,7 @@ namespace EShop.Infrastructure.Mongo
 			});
 			services.AddSingleton<IMongoDatabase>(client =>
 			{
-				var mongoClient = client.GetService<MongoClient>();
+				var mongoClient = client.GetService<IMongoClient>();
 
 				return mongoClient.GetDatabase(mongoConfig.Database);
 			});
