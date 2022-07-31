@@ -44,6 +44,10 @@
               "target": "Package",
               "version": "[6.3.2, )"
             },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"

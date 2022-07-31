@@ -43,6 +43,10 @@
             "MassTransit": {
               "target": "Package",
               "version": "[6.3.2, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
             }
           },
           "imports": [

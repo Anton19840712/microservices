@@ -47,6 +47,10 @@
             "MassTransit": {
               "target": "Package",
               "version": "[6.3.2, )"
+            },
+            "MassTransit.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.2, )"
             }
           },
           "imports": [
@@ -108,6 +112,10 @@
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "MassTransit": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
+            "MassTransit.AspNetCore": {
               "target": "Package",
               "version": "[6.3.2, )"
             },
