@@ -16,11 +16,10 @@ namespace EShop.Product.Api.Services
 
 		public async Task<ProductCreated> AddProduct(CreateProduct product)
 		{
-			product.ProductId = Guid.NewGuid();
 			return await _repository.AddProduct(product);
 		}
 
-		public async Task<ProductCreated> GetProduct(Guid productId)
+		public async Task<ProductCreated> GetProduct(string productId)
 		{
 			return await _repository.GetProduct(productId);
 		}

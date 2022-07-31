@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "XgHlPwT0zFw1TQLNWZcSduZ8Hm/9jEGrbGUOdUxDxmg4dQPa1TV9AcnKy3ztdywrQWqdBPOvfWQN8xwTpYG7fw==",
+  "dgSpecHash": "kNV81pH2etl0yhOGHrWHRXxWhYxYBGRJH2W0ZbHG3XT6AS4edKnGdULlzr2/pkX+TloEzndlwbVmq7CgBcJnyA==",
   "success": true,
   "projectFilePath": "D:\\microservices\\EShop\\EShop.Product.Api\\EShop.Product.Api.csproj",
   "expectedPackageFiles": [

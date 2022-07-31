@@ -31,9 +31,9 @@ namespace EShop.Product.Api.Repositories
 			};
 		}
 
-		public async Task<ProductCreated> GetProduct(Guid ProductId)
+		public async Task<ProductCreated> GetProduct(string productId)
 		{
-			var product = _collection.AsQueryable().Where(x => x.ProductId == ProductId).FirstOrDefault();
+			var product = _collection.AsQueryable().Where(x => x.ProductId == productId).FirstOrDefault();
 
 			if (product == null) throw new Exception("product not found");
 

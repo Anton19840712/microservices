@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace EShop.Product.Api.Controllers
 {
-	[Route("api/[controller]")]
 	[ApiController]
+	[Route("[controller]")]
 	public class ProductController : ControllerBase
 	{
 		private readonly IProductService _productService;
@@ -17,7 +17,8 @@ namespace EShop.Product.Api.Controllers
 			_productService = productService;
 		}
 
-		public async Task<IActionResult> Get(Guid productId)
+		[HttpGet]
+		public async Task<IActionResult> Get(string productId)
 		{
 			var product = await _productService.GetProduct(productId);
 			return Ok(product);

@@ -24,6 +24,8 @@ namespace EShop.Infrastructure.Mongo
 
 				return mongoClient.GetDatabase(mongoConfig.Database);
 			});
+
+			services.AddSingleton<IDatabaseInitializer, MongoInitializer>();
 		}
 	}
 }

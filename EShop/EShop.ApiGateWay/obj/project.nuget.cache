@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "x++qYLmeMkx88CHXK8BDMwKGBa94Mxy6DKurA9BfoWdxTViQpMWqs6a/FVbUSCzJ2PttNPIs8pWU4GTfTZnnYA==",
+  "dgSpecHash": "54LGnUbCdPHFcgUSKZKvOIIYm7a1ZsJKRg9pBmTdkw6T9fwkYHqWjcRjChhvNwD81fo9SL9uj0GxgLC9G3WdSg==",
   "success": true,
   "projectFilePath": "D:\\microservices\\EShop\\EShop.ApiGateWay\\EShop.ApiGateWay.csproj",
   "expectedPackageFiles": [
