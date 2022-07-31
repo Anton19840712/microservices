@@ -43,6 +43,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -101,6 +107,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MassTransit": {
+              "target": "Package",
+              "version": "[6.3.2, )"
+            },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
               "version": "[6.0.0, )"
