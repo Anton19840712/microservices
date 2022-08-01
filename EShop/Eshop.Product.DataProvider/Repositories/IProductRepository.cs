@@ -3,12 +3,11 @@ using EShop.Infrastructure.Event.Product;
 using System;
 using System.Threading.Tasks;
 
-namespace EShop.Product.Api.Services
+namespace Eshop.Product.DataProvider.Repositories
 {
-	public interface IProductService
+	public interface IProductRepository
 	{
 		Task<ProductCreated> GetProduct(string productId);
 		Task<ProductCreated> AddProduct(CreateProduct product);
-
 	}
 }

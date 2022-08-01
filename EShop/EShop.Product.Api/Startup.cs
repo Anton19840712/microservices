@@ -1,8 +1,8 @@
+using Eshop.Product.DataProvider.Repositories;
+using Eshop.Product.DataProvider.Services;
 using EShop.Infrastructure.EventBus;
 using EShop.Infrastructure.Mongo;
 using EShop.Product.Api.Handlers;
-using EShop.Product.Api.Repositories;
-using EShop.Product.Api.Services;
 using GreenPipes;
 using MassTransit;
 using MassTransit.MultiBus;
