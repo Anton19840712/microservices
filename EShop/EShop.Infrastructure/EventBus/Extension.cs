@@ -1,4 +1,5 @@
 ﻿using System;
+using EShop.Infrastructure.Query.Product;
 using MassTransit;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -21,9 +22,12 @@ namespace EShop.Infrastructure.EventBus
 						hostcfg.Username(rabbitMq.Username);
 						hostcfg.Password(rabbitMq.Password);
 					});
+					cfg.ConfigureEndpoints(provider);
 				}));
-
+				x.AddRequestClient<GetProductById>();
 			});
+
+			services.AddMassTransitHostedService();
 
 			return default;
 		}

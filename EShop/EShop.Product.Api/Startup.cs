@@ -29,8 +29,8 @@ namespace EShop.Product.Api
 		{
 			services.AddControllers();
 			services.AddMongoDb(Configuration);
-			services.AddScoped<IProductService, ProductService>();
 			services.AddScoped<IProductRepository, ProductRepository>();
+			services.AddScoped<IProductService, ProductService>();
 			services.AddScoped<CreateProductHandler>();
 
 			var rabbitmqOption = new RabbitMqOption();
